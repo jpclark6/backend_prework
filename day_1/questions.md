@@ -1,6 +1,7 @@
 ## Day 1 Questions
 
-1. How would you print the string `"Hello World!"` to the terminal? One way is to write `p "Hello World!"` from inside a ruby program and then run the program using "ruby prog.rb" if prog.rb is the program name and you're in the right directory.
+1. How would you print the string `"Hello World!"` to the terminal?
+One way is to write `p "Hello World!"` from inside a ruby program and then run the program using "ruby prog.rb" if prog.rb is the program name and you're in the right directory.
 
 1. What is the character you would use to indicate comments in a ruby file? The # sign
 
