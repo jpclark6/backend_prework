@@ -5,20 +5,23 @@
    A conditional statement is a condition that if true runs a block of code, and if false
    skips the block of code. The following are examples:
 
-   ```if 3 > 4  
-      puts "This will not print"  
-    end
-    ```
+   ```ruby
+   if 3 > 4  
+     puts "This will not print"  
+   end
+   ```
 
-   ```if 3 < 4  
-      puts "This will print"  
-    end
-    ```  
+   ```ruby
+   if 3 < 4  
+     puts "This will print"  
+   end
+   ```  
 
-   ```if 3 == 3 || 3 < 1  
-      puts "This will still print"  
-    end
-    ```  
+   ```ruby
+   if 3 == 3 || 3 < 1  
+     puts "This will still print"  
+   end
+   ```  
 
 1. Why might you want to use an if-statement?
 
@@ -28,10 +31,11 @@
 
 1. What is the Ruby syntax for an if statement?
 
-   ```if statement  
-      run this if true  
-    end
-    ```
+   ```ruby
+   if statement  
+     run this if true  
+   end
+   ```
 
 1. How do you add multiple conditions to an if statement?
 
@@ -39,7 +43,8 @@
 
 1. What is the Ruby syntax for an if/elsif/else statement?
 
-   ```if statement  
+    ```ruby
+    if statement  
       run this if statement is true  
     elsif statement  
       run this if the first statement was false, but the second was true  
@@ -52,14 +57,16 @@
 
    Another way would be using `unless` which is almost the opposite of an if statement.
 
-   ```unless a == b  
+    ```ruby
+    unless a == b  
       run this code if a != b  
     end
     ```
 
     Another would be `while` to make a program do something while something is true
 
-    ```while a < b  
+    ```ruby
+    while a < b  
       a += 1    
     end
     ```
